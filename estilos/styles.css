@@ -1,0 +1,101 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form , .form_registro {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  margin: 0 -12px;
+  border-bottom-right-radius: 74px;
+}
+
+.form_registro {
+  border-bottom-right-radius: 0px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome, registro {
+  font-size: 28px;
+  font-weight: bold;
+  color: #495BB7;
+}
+
+.login_icone {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.input {
+  width: 240px;
+  height: 44px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.caixa_input {
+  max-width: 240px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #FFFBFB;
+  display: flex;
+  align-items: center;
+}
+
+.lembrar {
+  font-size: 13px;
+  max-width: 240px;
+}
+
+.botao {
+  max-width: 240px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #495BB7;
+  color: #FFFBFB;
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: #152782 2px 2px;
+  border: none
+}
+
+.botao:active {
+  color: #FFFBFB;
+}
+
+.esqueceuasenha {
+  color: #000000;
+  text-decoration: none;
+}
+
+.texto_opcao {
+  font-size: 20px;
+}
+
+.icones {
+  width: 50px;
+  height: 50px;
+}
+
+.novo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.novo_registro {
+  color: #495BB7;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.registro {
+  font-weight: bold;
+  color: #495BB7;
+}
